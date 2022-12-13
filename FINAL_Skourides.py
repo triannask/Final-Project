@@ -20,8 +20,9 @@ def homepage():
     st.image('BPD.jpg')
     st.write('On this website, you will see the data for Boston Crimes in 2021 sorted and displayed in meaningful ways.')
     st.write('The tab called "Map of Crimes" will show the crimes on a map and the user is able to view the data on the map by district.')
-    st.write('The tab called "Dates of Crimes" will have the data sorted in ascending order by the date of the crime.')
+    st.write('The tab called "Dates of Crimes" will have the data showing only incident number, description, and date.')
     st.write('The tab called "Bar Charts" will show multiple bar charts depicting different elements of the data.')
+    st.write('The tab called "Crime on your Street" allows the user to input their street name and see the crime committed on just that street.')
     st.write('Please enjoy the site.')
 
 
